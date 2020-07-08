@@ -6,7 +6,13 @@ class StudentsController < ApplicationController
   end
 
   def show
+    set_student
   end
+  
+  def activate_student 
+    set_student 
+    render "activate"
+  end 
 
   private
 
