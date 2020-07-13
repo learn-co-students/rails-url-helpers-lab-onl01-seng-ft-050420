@@ -6,7 +6,6 @@ class StudentsController < ApplicationController
   end
 
   def show
-
   end
 
   def activate_student
